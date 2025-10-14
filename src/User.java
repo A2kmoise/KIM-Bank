@@ -1,12 +1,9 @@
-import javax.management.relation.Role;
 import java.util.Date;
 
 abstract  class User {
 int id;
 String name;
 String role;
-
-public User(){}
 
     public User(int id, String name, String role){
         this.id = id;
