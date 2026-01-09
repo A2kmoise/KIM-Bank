@@ -29,6 +29,7 @@ class BankAccount extends Person {
     void withDraw(long amount) throws  Exception{
             if (amount > this.balance || amount < 0) {
                 System.out.println("\n\n Ibintabwo bikunda ongera.");
+                return;
             }
             this.balance -= amount;
     }
